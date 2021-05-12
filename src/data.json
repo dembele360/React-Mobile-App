@@ -1,0 +1,38 @@
+{
+    "products" :[
+        {
+
+        "_id": "gas1",
+        "title" : "Gas 1",
+        "image": "../assets/banners/one.jpg",
+        "description" : "This is for all types",
+        "availableSizes": ["12.5" , "15.5"],
+        "price" : 20000
+        
+         },
+
+         {"_id": "gas2",
+        "title" : "Gas 2",
+        "image": "../assets/banners/two.jpg",
+        "description" : "about Gas 2",
+        "availableSizes": ["12.5" , "15.5"],
+        "price" : 20000
+         },
+
+         {"_id": "gas3",
+        "title" : "Gas 3",
+        "image": "../assets/banners/three.jpg",
+        "description" : "about Gas 3",
+        "availableSizes": ["12.5" , "15.5"],
+        "price" : 20000
+         },
+
+         {"_id": "gas4",
+        "title" : "Gas 4",
+        "image": "../assets/banners/four.jpg",
+        "description" : "about Gas 4",
+        "availableSizes": ["12.5" , "15.5"],
+        "price" : 20000
+         }
+    ]
+}
