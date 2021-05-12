@@ -1,20 +1,23 @@
 import React from 'react';
 import {View,Text, Button, Stylesheet} from 'react-native';
-import data from "../src/data.json";
+import Products from '../components/Products';
+import Data from "../screens/data.json";
 
 
-class CardListScreenM  extends React.Components {
-   
-      constructor(){
-         super();
-         this.state ={
-            products: data.products,
-            size:"",
-            sort: "",
-         }
-      }
+class  CardListScreenM extends React.Component {
+    constructor(){
+       super();
+       this.state = {
+          products: Data.products,
+          size: "",
+          sort: "",
+       }
+    }
 
-      render(){
+     render(){
+
+
+
      return(
         <div className="grid-container">
 
@@ -24,7 +27,11 @@ class CardListScreenM  extends React.Components {
            
            <main>
             <div className="content">
-               <div className="main">Products</div>
+               <div className="main">
+                  <Products products={this.state.products}></Products>
+                  
+                  
+               </div>
                <div className="sidebar">Cart Items</div>
             </div>  
            </main>
@@ -35,22 +42,11 @@ class CardListScreenM  extends React.Components {
         </div>
 
      );
-   }
+     }
+   
 };
 
-export default  CardListScreenM;
-
-// const styles = StyleSheet.create ({
-
-//    container: {
-
-//       flex: 1,
-//       alignItems: 'center',
-//       justifyContent: 'center'
-//      },
-
-// });
-
+export default  CardListScreenM
 
 
 
