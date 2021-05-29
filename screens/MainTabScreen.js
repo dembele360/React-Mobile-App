@@ -32,14 +32,14 @@ const MainTabScreen = () =>(
     <Tab.Navigator
      initialRouteName="Home"
      activeColor="#fff"
-     barStyle={{ backgroundColor: 'tomato' }}
+     barStyle={{ backgroundColor: '#002e3b' }}
   >
     <Tab.Screen
       name="Home"
       component={HomeStackScreen}
       options={{
         tabBarLabel: 'Home',
-        tabBarColor: '#ff6347',
+        tabBarColor: '#002e3b',
         tabBarIcon: ({ color }) => (
           <Icon name="ios-home-sharp" color={color} size={26} />
         ),
@@ -72,7 +72,7 @@ const MainTabScreen = () =>(
       component={NotificationsStackScreen}
       options={{
         tabBarLabel: 'updates',
-        tabBarColor: '#d02869',
+        tabBarColor: '#002e3b',
         tabBarIcon: ({ color }) => (
           <Icon name="ios-navigate" color={color} size={26} />
         ),
@@ -84,7 +84,7 @@ const MainTabScreen = () =>(
       component={HistoryStackScreen}
       options={{
         tabBarLabel: 'History',
-        tabBarColor: '#694fad',
+        tabBarColor: '#002e3b',
         tabBarIcon: ({ color }) => (
           <Icon name="ios-archive" color={color} size={26} />
         ),
@@ -105,7 +105,7 @@ const HomeStackScreen = ({navigation}) =>(
     <HomeStack.Navigator 
     screenOptions={{
         headerStyle: {
-            backgroundColor: '#ff6347',
+            backgroundColor: '#002e3b',
             shadowColor:'#fff',
             elevation: 0
         },
@@ -149,11 +149,12 @@ const HomeStackScreen = ({navigation}) =>(
      
      
      />
-
+{/* this is where we can change the upper headerRight */}
              {/* Creating another screen for ordering manjis gas */}
   <HomeStack.Screen
     name="CardListScreenM"
     component={CardListScreenM}
+    //here
     options={({route})   =>  ({
           title: route.params.title
 
@@ -217,7 +218,7 @@ const ProfileStackScreen = ({navigation}) =>(
 <ProfileStack.Navigator 
 screenOptions={{
    headerStyle: {
-       backgroundColor: '#009387'
+       backgroundColor: '#002e3b'
    },
    headerTintColor: '#000',
    headerTitleStyles: {
@@ -257,7 +258,7 @@ const NotificationsStackScreen = ({navigation}) =>(
   
 <NotificationsStack.Navigator screenOptions={{
    headerStyle: {
-       backgroundColor: '#009387'
+       backgroundColor: '#002e3b'
    },
    headerTintColor: '#fff',
    headerTitleStyles: {
@@ -279,7 +280,7 @@ const HistoryStackScreen = ({navigation}) =>(
   
 <HistoryStack.Navigator screenOptions={{
    headerStyle: {
-       backgroundColor: '#009387'
+       backgroundColor: '#002e3b'
    },
    headerTintColor: '#fff',
    headerTitleStyles: {

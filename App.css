@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'open Sans', sans-serif;
+}
+
+@media(max-width: 768px){
+    .mybtn {
+        width: 100%;
+
+    }
+}

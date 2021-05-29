@@ -1,0 +1,1 @@
+// declare module '@chec/commerce';

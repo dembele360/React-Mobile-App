@@ -12,6 +12,9 @@ import OrderScreen  from './screens/OrderScreen';
 import SettingsScreen  from './screens/SettingsScreen';
 import SupportScreen  from './screens/SupportScreen';
 import ContactUsScreen  from './screens/ContactUsScreen';
+// import store from "../src/reducers/store";
+// import {Provider}  from "react-redux";
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 import RootStackScreen from './screens/RootStackScreen';
@@ -27,6 +30,7 @@ const Tab = createMaterialBottomTabNavigator();
 
   const App = ()=> {
   return (
+    // <Provider  store={store}>
     <NavigationContainer>
        <Drawer.Navigator drawerContent={props=> <DrawerContent { ... props} />}>
         <Drawer.Screen name=" GAS DELIVERY MOBILE APPLICATION" component={MainTabScreen} />
@@ -40,6 +44,7 @@ const Tab = createMaterialBottomTabNavigator();
         
     </Drawer.Navigator>
     </NavigationContainer>
+    //</Provider>
   );
 }
 

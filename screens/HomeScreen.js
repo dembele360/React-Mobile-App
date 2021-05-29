@@ -103,8 +103,8 @@ const HomeScreen =({navigation}) => {
               <View style={styles.categoryIcon}>
 
 
-                   <FontAwesome5 name="dumpster-fire"  size={30}   color="#ff6347"/>
-                   <Text style={[StyleSheet.categoryBtnTxt, {color: "#ff6347"}]}>Manjis</Text>
+                   <FontAwesome5 name="dumpster-fire"  size={30}   color="#50556c"/>
+                   <Text style={[StyleSheet.categoryBtnTxt, {color: "black"}]}>Manjis</Text>
                </View>
                
                </TouchableOpacity>
@@ -116,8 +116,8 @@ const HomeScreen =({navigation}) => {
                <View style={styles.categoryIcon}>
 
 
-                   <MaterialCommunityIcons name="cookie"  size={30}   color="#ff6347"/>
-                   <Text style={[StyleSheet.categoryBtnTxt, {color: "#ff6347"}]}>ORYX</Text>
+                   <MaterialCommunityIcons name="cookie"  size={30}   color="#50556c"/>
+                   <Text style={[StyleSheet.categoryBtnTxt, {color: "black"}]}>ORYX</Text>
                </View>
                
                </TouchableOpacity>
@@ -128,8 +128,8 @@ const HomeScreen =({navigation}) => {
                <View style={styles.categoryIcon}>
 
 
-                   <MaterialCommunityIcons name="cart"  size={30}   color="#ff6347"/>
-                   <Text style={[StyleSheet.categoryBtnTxt, {color: "#ff6347"}]}>Orange</Text>
+                   <MaterialCommunityIcons name="cart"  size={30}   color="#50556c"/>
+                   <Text style={[StyleSheet.categoryBtnTxt, {color: "black"}]}>Orange</Text>
                </View>
                
                </TouchableOpacity>
@@ -151,8 +151,8 @@ const HomeScreen =({navigation}) => {
               <View style={styles.categoryIcon}>
 
 
-                   <FontAwesome name="fire-extinguisher"  size={30}   color="#ff6347"/>
-                   <Text style={[StyleSheet.categoryBtnTxt, {color: "#ff6347"}]}>Lake</Text>
+                   <FontAwesome name="fire-extinguisher"  size={30}   color="#50556c"/>
+                   <Text style={[StyleSheet.categoryBtnTxt, {color: "black"}]}>Lake</Text>
                </View>
                
                </TouchableOpacity>
@@ -164,8 +164,8 @@ const HomeScreen =({navigation}) => {
                <View style={styles.categoryIcon}>
 
 
-               <FontAwesome5 name="fire-alt"  size={30}   color="#ff6347"/>
-               <Text style={[StyleSheet.categoryBtnTxt, {color: "#ff6347"}]}>Taifa </Text>
+               <FontAwesome5 name="fire-alt"  size={30}   color="#50556c"/>
+               <Text style={[StyleSheet.categoryBtnTxt, {color: "black"}]}>Taifa </Text>
                </View>
                
                </TouchableOpacity>
@@ -178,7 +178,8 @@ const HomeScreen =({navigation}) => {
                <View style={styles.categoryIcon}>
 
 
-                 <MaterialIcons name="expand-more"  size={30}   color="#ff6347"/>
+                 <MaterialIcons name="expand-more"  size={30}   color="#50556c"/>
+                 <Text style={[StyleSheet.categoryBtnTxt, {color: "black"}]}>Expand More </Text>
 
                </View>
                </TouchableOpacity>
@@ -343,7 +344,7 @@ const styles = StyleSheet.create({
      categoryBtnTxt:{
        alignSelf: 'center',
        marginTop: 5,
-       color: '#de4f35'
+       color: 'black'
      },
 
      categoryIcon:{
@@ -353,7 +354,7 @@ const styles = StyleSheet.create({
       alignSelf: 'center',
       width: 70,
       height: 70,
-      backgroundColor: 'black',
+      backgroundColor: '#e4e9e8',
       borderRadius: 50,
 
       
@@ -385,6 +386,7 @@ const styles = StyleSheet.create({
 
     cardTitle: {
         fontWeight: 'bold',
+        color: "black"
     },
 
 

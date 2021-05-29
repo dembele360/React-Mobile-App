@@ -52,15 +52,15 @@ const toggleTheme =() => {
                           size={50}
                           />
                           <View style={{ marginLeft: 15,  flexDirection: 'column'}}>
-                              <Title style={{fontSize: 16,marginTop: 3,fontWeight: 'bold',}}>MUSA</Title>
-                              <Caption style={{fontSize: 16, marginTop: 3, fontWeight: 'bold'}}>@Dembele360</Caption>
+                              <Title style={{fontSize: 16,marginTop: 3,fontWeight: 'bold', color: "#9c9c9c" }}>MUSA</Title>
+                              <Caption style={{fontSize: 16, marginTop: 3, fontWeight: 'bold', color: "#9c9c9c"}}>@Dembele360</Caption>
                           </View>
                           </View>
 
                      </View>
 
                    {/* Items to Be Seen In Drawer Sections */}
-                 <Drawer.Section Style={{marginTop: 15,}}>
+                 <Drawer.Section Style={{marginTop: 15, color: "#000000"}}>
 
                    {/* HOME ICON */}
                  <DrawerItem
@@ -228,6 +228,7 @@ const styles = StyleSheet.create({
 
     drawerContent:{
         flex: 1,
+        backgroundColor: "#9c9c9c"
     },
 
 
@@ -287,12 +288,12 @@ const styles = StyleSheet.create({
     bottomDrawerSection: {
 
       marginBottom: 15,
-      borderBottomColor: '#f4f4f4',
+      borderBottomColor: '#9c9c9c',
       borderTopWidth: 1
 
     },
 
-    // preference: {
+    // preference: {color: "#9c9c9c"
     //    flexDirection: 'row',
     //    justifyContent: 'space-between',
     //    paddingVertical: 12,
