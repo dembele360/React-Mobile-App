@@ -14,10 +14,10 @@ import SupportScreen  from './screens/SupportScreen';
 import ContactUsScreen  from './screens/ContactUsScreen';
 // import store from "../src/reducers/store";
 // import {Provider}  from "react-redux";
-import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootstrap/dist/css/bootstrap.css';
 
 
-import RootStackScreen from './screens/RootStackScreen';
+// import RootStackScreen from './screens/RootStackScreen';
 
 // import { AuthContext } from '../components/context';
 
@@ -30,7 +30,7 @@ const Tab = createMaterialBottomTabNavigator();
 
   const App = ()=> {
   return (
-    // <Provider  store={store}>
+
     <NavigationContainer>
        <Drawer.Navigator drawerContent={props=> <DrawerContent { ... props} />}>
         <Drawer.Screen name=" GAS DELIVERY MOBILE APPLICATION" component={MainTabScreen} />
@@ -40,11 +40,11 @@ const Tab = createMaterialBottomTabNavigator();
         <Drawer.Screen name="SupportScreen" component={SupportScreen} />
         <Drawer.Screen name="ContactUsScreen" component={ContactUsScreen} />
 
-        {/* <Drawer.Screen name="RootStackScreen" component={RootStackScreen} />   */}
+      
         
     </Drawer.Navigator>
     </NavigationContainer>
-    //</Provider>
+  
   );
 }
 

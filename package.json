@@ -74,6 +74,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "shortid": "^2.2.16",
+    "stripe": "^8.156.0",
     "swiper": "^6.5.9"
   },
   "devDependencies": {
